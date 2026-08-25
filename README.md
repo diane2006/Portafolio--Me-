@@ -1,47 +1,263 @@
-# Portafolio — Dayana Santana
+# ✦ Portafolio — Dayana Santana
 
-Sitio de una sola página, sin frameworks ni build: solo HTML, CSS y JS en tres archivos separados. Eso lo hace muy fácil de subir a Vercel.
+> **Desarrollo de Software · Diseño UI · Diseño Gráfico**
 
-- `index.html` → estructura y contenido
-- `styles.css` → todos los estilos
-- `script.js` → typewriter de roles, menú móvil y botón de CV
+Bienvenido a mi portafolio profesional.
+Soy **Dayana Dianeth Santana Chiru**, estudiante de **Desarrollo y Gestión de Software**, apasionada por la tecnología, el desarrollo web y el diseño de interfaces.
 
-Los tres archivos deben quedar en la **misma carpeta** — `index.html` los enlaza con `<link rel="stylesheet" href="styles.css">` y `<script src="script.js" defer>`.
+Este proyecto reúne una selección de mis **proyectos académicos, proyectos de programación, trabajos de diseño gráfico y experiencias en diseño de interfaces**, mostrando tanto mis conocimientos técnicos como mi creatividad.
 
-## Qué personalizar antes de publicar
+---
 
-- **CV**: sube tu CV en PDF a esta misma carpeta (ej. `cv-dayana.pdf`) y cambia el `href="#"` del botón "Descargar CV" en `index.html` por `href="cv-dayana.pdf"`.
-- **Redes sociales**: cuando tengas LinkedIn u otras, agrégalas en `.social-row` (copia el patrón del ícono de GitHub) y en la sección de contacto.
-- **Sección "Diseño gráfico & UI"**: los 6 bloques de color son marcadores de posición. Reemplázalos por tus imágenes reales:
-  ```html
-  <div class="gallery-item"><img src="logo1.jpg" alt="Logo X"></div>
-  ```
-  y sube las imágenes a una carpeta `img/` dentro del proyecto.
-- **Proyectos**: edita textos y tecnologías en la sección `#proyectos` con tus proyectos reales o nuevos que hagas.
+## 👩‍💻 Sobre mí
 
-## Subir a Vercel (sin usar terminal)
+Actualmente estudio **Desarrollo y Gestión de Software** y cuento con formación previa en **Bachiller en Informática**.
 
-1. Sube esta carpeta a un repositorio nuevo en tu GitHub (`diane2006`). Puedes arrastrar los archivos directamente desde la web de GitHub ("Add file → Upload files").
-2. Entra a [vercel.com](https://vercel.com) e inicia sesión con tu cuenta de GitHub.
-3. Clic en **Add New → Project**.
-4. Selecciona el repositorio que acabas de crear.
-5. Framework Preset: **Other** (no necesita build). Deja todo por defecto.
-6. Clic en **Deploy**.
-7. En 1-2 minutos te da un link tipo `https://tu-portafolio.vercel.app` — ese es el que pones en tu CV.
+Me interesa combinar el desarrollo de software con el diseño para crear soluciones que no solo funcionen correctamente, sino que también sean **claras, modernas y fáciles de utilizar**.
 
-## Subir a Vercel (con terminal, opcional)
+### 💡 Áreas de interés
+
+* Desarrollo Web
+* Diseño de Interfaces (UI)
+* Diseño Gráfico
+* Desarrollo de Software
+* Experiencia de Usuario (UX)
+* Prototipado
+* Edición de imágenes y videos
+* Soluciones digitales
+
+---
+
+## 🛠️ Tecnologías y herramientas
+
+### 💻 Desarrollo
+
+`HTML` · `CSS` · `JavaScript` · `Java` · `Python` · `C` · `C++`
+
+### 🗄️ Bases de datos
+
+`MySQL` · `Microsoft SQL Server`
+
+### 🎨 Diseño
+
+`Figma` · `Photoshop` · `Illustrator` · `Canva`
+
+### 🎬 Multimedia
+
+`CapCut` · `Adobe Premiere` · Fotografía básica · Edición de video
+
+---
+
+## 🚀 Proyectos destacados
+
+### 🚗 AutoDrive Panamá
+
+Sistema de gestión para una empresa dedicada a la venta de vehículos.
+
+**Incluye módulos como:**
+
+* Gestión de vehículos
+* Clientes
+* Empleados
+* Proveedores
+* Compras
+* Ventas
+* Categorías
+* Reportes
+* Estadísticas
+
+**Tecnologías:** Java · Java Swing · SQL
+
+---
+
+### 📍 GeoReseña
+
+Prototipo de aplicación móvil orientada a la consulta y valoración de lugares.
+
+El proyecto fue desarrollado mediante prototipado de interfaces, trabajando aspectos de **UI, navegación, experiencia de usuario y diseño visual**.
+
+**Herramientas:** Figma
+
+---
+
+### 🌐 Proyectos Web
+
+Desarrollo de diferentes proyectos web utilizando tecnologías fundamentales del desarrollo frontend.
+
+**Tecnologías:** HTML · CSS · JavaScript
+
+---
+
+## 🎨 Diseño gráfico & UI
+
+Además del desarrollo de software, este portafolio incluye trabajos relacionados con:
+
+* Diseño de logotipos
+* Posters
+* Stickers
+* Publicidad
+* Diseño de interfaces
+* Prototipos
+* Edición de fotografías
+* Contenido visual para redes sociales
+
+> Las piezas gráficas se encuentran dentro de la sección **Diseño Gráfico & UI** del portafolio.
+
+---
+
+## 📁 Estructura del proyecto
+
+Este portafolio está desarrollado como un sitio web estático, sin frameworks ni procesos de compilación.
+
+```text
+📦 Portafolio
+│
+├── 📄 index.html
+├── 🎨 styles.css
+├── ⚙️ script.js
+├── 📄 README.md
+│
+├── 📁 img/
+│   ├── proyectos/
+│   └── diseño/
+│
+└── 📄 cv-dayana.pdf
+```
+
+### Archivos principales
+
+| Archivo         | Descripción                           |
+| --------------- | ------------------------------------- |
+| `index.html`    | Estructura y contenido del portafolio |
+| `styles.css`    | Diseño, estilos y responsive          |
+| `script.js`     | Interacciones y funcionalidades       |
+| `img/`          | Imágenes utilizadas en el portafolio  |
+| `cv-dayana.pdf` | Currículum vitae                      |
+
+Los archivos principales deben permanecer en la misma carpeta para que los enlaces entre HTML, CSS y JavaScript funcionen correctamente.
+
+---
+
+## ✏️ Personalización
+
+### CV
+
+Coloca tu currículum en PDF dentro del proyecto:
+
+```text
+cv-dayana.pdf
+```
+
+Después, en `index.html`, utiliza:
+
+```html
+<a href="cv-dayana.pdf" download>
+    Descargar CV
+</a>
+```
+
+### 🖼️ Imágenes
+
+Las imágenes del portafolio pueden organizarse dentro de:
+
+```text
+img/
+├── proyectos/
+└── diseño/
+```
+
+Ejemplo:
+
+```html
+<div class="gallery-item">
+    <img src="img/diseño/logo1.jpg" alt="Diseño de logotipo">
+</div>
+```
+
+### 📱 Redes sociales
+
+Puedes agregar tus perfiles profesionales en la sección correspondiente del `index.html`.
+
+Algunos ejemplos:
+
+* GitHub
+* LinkedIn
+* Behance
+* Instagram
+* Correo electrónico
+
+---
+
+## 🌐 Publicación
+
+El proyecto puede desplegarse fácilmente en plataformas como **Vercel**, ya que no requiere frameworks ni procesos de compilación.
+
+### Vercel
+
+1. Sube el proyecto a un repositorio de GitHub.
+2. Inicia sesión en Vercel con tu cuenta de GitHub.
+3. Selecciona **Add New → Project**.
+4. Selecciona este repositorio.
+5. Configura el proyecto como un sitio estático.
+6. Haz clic en **Deploy**.
+7. Vercel generará una URL pública para el portafolio.
+
+También puedes utilizar la terminal:
 
 ```bash
 npm i -g vercel
+```
+
+Luego:
+
+```bash
 cd carpeta-del-proyecto
 vercel
 ```
 
-Sigue las instrucciones en pantalla (conecta tu cuenta la primera vez) y te dará el link de producción.
+---
 
-## Estructura
+## 🎯 Objetivo del proyecto
 
+El objetivo de este portafolio es presentar de manera profesional mi evolución como estudiante y desarrolladora, mostrando proyectos que combinan:
+
+**Programación + Diseño + Creatividad + Tecnología**
+
+A través de este proyecto busco seguir construyendo mi experiencia, mejorar mis habilidades y documentar nuevos proyectos a medida que avanzo en mi formación profesional.
+
+---
+
+## 📬 Contacto
+
+**Dayana Dianeth Santana Chiru**
+
+🎓 Desarrollo y Gestión de Software
+💻 Desarrollo Web & Software
+🎨 Diseño UI & Diseño Gráfico
+
+📧 **[dayanasantan2600@gmail.com](mailto:dayanasantan2600@gmail.com)**
+
+---
+
+## ⭐ Tecnologías utilizadas
+
+```text
+HTML5
+CSS3
+JavaScript
+Git
+GitHub
+Figma
+Photoshop
+Illustrator
+Canva
 ```
-index.html   → todo el sitio (HTML + CSS + JS)
-README.md    → esta guía
-```
+
+---
+
+### ✦ Gracias por visitar mi portafolio
+
+Este proyecto se encuentra en constante evolución.
+Cada nuevo proyecto representa una oportunidad para **aprender, experimentar y mejorar**.
+
+**© 2026 Dayana Santana — Portafolio Profesional**
