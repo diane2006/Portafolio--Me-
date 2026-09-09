@@ -9,11 +9,7 @@ Sitio estático hecho con HTML, CSS y JavaScript.
 - `cv.html` — CV imprimible/guardable como PDF.
 - `assets/dayana.jpg` — foto utilizada en el hero.
 
-## Publicar en GitHub + Vercel
-1. Sube toda esta carpeta a un repositorio de GitHub.
-2. En Vercel selecciona **Add New Project** y conecta el repositorio.
-3. No necesita build command ni framework.
-4. Vercel publicará `index.html` como página principal.
+
 
 ## Personalización posterior
 Los enlaces de proyectos están preparados para que reemplaces `href="#"` por las URLs reales de tus repositorios o demos.
