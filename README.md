@@ -1,4 +1,4 @@
-# Portafolio de Dayana Dianeth Santana Chirú
+# Portafolio de Dayana  Santana 
 
 Sitio estático hecho con HTML, CSS y JavaScript.
 
