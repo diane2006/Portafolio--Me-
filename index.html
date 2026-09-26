@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio personal de Dayana Dianeth Santana Chirú, estudiante de Desarrollo y Gestión de Software.">
+  <meta name="description" content="Portafolio personal de Dayana Santana, estudiante de Desarrollo y Gestión de Software.">
   <title>Dayana Santana | Portafolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
   <div class="cursor-glow" aria-hidden="true"></div>
 
   <header class="site-header">
@@ -40,17 +42,19 @@
     </nav>
   </header>
 
-  <main>
+  <main id="contenido">
     <section id="inicio" class="hero section">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">DESARROLLADORA DE SOFTWARE</p>
+          <p class="eyebrow">DESARROLLADORA DE SOFTWARE · PANAMÁ</p>
           <h1>Dayana <br><span>Santana </span></h1>
           <p class="hero-text">
             Estudiante de Licenciatura en Desarrollo y Gestión de Software.
             Me gusta programar, especialmente en el área web, y también disfruto
             el diseño de interfaces en Figma.
           </p>
+
+          <div class="availability"><span></span> Abierta a nuevas oportunidades</div>
 
           <div class="hero-buttons">
             <a class="btn btn-primary" href="#proyectos">Ver proyectos <span>→</span></a>
@@ -66,11 +70,6 @@
         </div>
 
         <div class="hero-photo-wrap reveal">
-          <div class="orbit orbit-1"></div>
-          <div class="orbit orbit-2"></div>
-          <div class="doodle crown">♧</div>
-          <div class="doodle heart">♡</div>
-          <div class="code-doodle">Code<br>Design<br>Create</div>
           <div class="photo-frame">
            <img src="dayana.jpg" alt="Foto de Dayana Dianeth Santana Chirú">
           </div>
@@ -82,7 +81,7 @@
       <div class="container about-grid">
         <div class="reveal">
           <p class="eyebrow">SOBRE MÍ</p>
-          <h2>Hola, soy <span>Dayana</span> ♡</h2>
+          <h2>Hola, soy <span>Dayana</span></h2>
           <p>
             Tengo 20 años y estudio Licenciatura en Desarrollo y Gestión de Software.
             Me gusta programar y tengo especial interés por el desarrollo web.
@@ -98,7 +97,7 @@
           <div class="info-item"><span class="info-symbol">⌘</span><div><strong>Estudios</strong><small>Licenciatura en Desarrollo y Gestión de Software</small></div></div>
           <div class="info-item"><span class="info-symbol">⌖</span><div><strong>Interés principal</strong><small>Desarrollo web</small></div></div>
           <div class="info-item"><span class="info-symbol">▱</span><div><strong>Diseño</strong><small>Interfaces en Figma</small></div></div>
-          <div class="info-item"><span class="info-symbol">♡</span><div><strong>Intereses</strong><small>Programación · Desarrollo web · Diseño de interfaces</small></div></div>
+          <div class="info-item"><span class="info-symbol">+</span><div><strong>Intereses</strong><small>Programación · Desarrollo web · Diseño de interfaces</small></div></div>
         </div>
       </div>
     </section>
@@ -124,7 +123,7 @@
               <h3>GeoReseña</h3>
               <p>Plataforma web de reseñas geolocalizadas.</p>
               <div class="tags"><span>React</span><span>Next.js</span><span>Supabase</span></div>
-              <a href="#" class="project-link" data-placeholder="GeoReseña">Ver proyecto →</a>
+              <a href="https://github.com/diane2006/Portafolio--Me-" target="_blank" rel="noopener noreferrer" class="project-link">Ver en GitHub ↗</a>
             </div>
           </article>
 
@@ -140,7 +139,7 @@
               <h3>Sistema Inteligente de Gestión de Carga Aérea</h3>
               <p>Proyecto de gestión desarrollado en Java.</p>
               <div class="tags"><span>Java</span><span>NetBeans</span><span>Swing</span><span>Maven</span></div>
-              <a href="#" class="project-link" data-placeholder="Sistema Inteligente de Gestión de Carga Aérea">Ver proyecto →</a>
+              <a href="https://github.com/diane2006" target="_blank" rel="noopener noreferrer" class="project-link">Ver en GitHub ↗</a>
             </div>
           </article>
 
@@ -155,7 +154,7 @@
               <h3>Diseño de interfaces</h3>
               <p>Diseño de interfaces y prototipos realizados en Figma.</p>
               <div class="tags"><span>Figma</span><span>UI</span><span>Prototipos</span></div>
-              <a href="#" class="project-link" data-placeholder="Diseño de interfaces">Ver proyecto →</a>
+              <a href="https://github.com/diane2006" target="_blank" rel="noopener noreferrer" class="project-link">Ver en GitHub ↗</a>
             </div>
           </article>
         </div>
@@ -173,10 +172,10 @@
         </div>
 
         <div class="skills-grid reveal">
-          <div class="skill"><span class="skill-logo java">☕</span><b>Java</b></div>
+          <div class="skill"><span class="skill-logo java">JV</span><b>Java</b></div>
           <div class="skill"><span class="skill-logo cpp">C++</span><b>C++</b></div>
           <div class="skill"><span class="skill-logo cs">C#</span><b>C#</b></div>
-          <div class="skill"><span class="skill-logo py">🐍</span><b>Python</b></div>
+          <div class="skill"><span class="skill-logo py">PY</span><b>Python</b></div>
           <div class="skill"><span class="skill-logo js">JS</span><b>JavaScript</b></div>
           <div class="skill"><span class="skill-logo html">&lt;/&gt;</span><b>HTML</b></div>
           <div class="skill"><span class="skill-logo css">#</span><b>CSS</b></div>
@@ -184,7 +183,7 @@
           <div class="skill"><span class="skill-logo pg">PG</span><b>PostgreSQL</b></div>
           <div class="skill"><span class="skill-logo figma">F</span><b>Figma</b></div>
           <div class="skill"><span class="skill-logo ps">Ps</span><b>Adobe Photoshop</b></div>
-          <div class="skill"><span class="skill-logo cap">✂</span><b>CapCut</b></div>
+          <div class="skill"><span class="skill-logo cap">CC</span><b>CapCut</b></div>
         </div>
       </div>
     </section>
@@ -217,13 +216,13 @@
       <div class="container contact-grid">
         <div class="reveal">
           <p class="eyebrow">CONTACTO</p>
-          <h2>Hablemos ♡</h2>
+          <h2>Hablemos</h2>
           <p>Si quieres conocer más sobre mis proyectos o ponerte en contacto conmigo, puedes escribirme desde este formulario.</p>
         </div>
 
         <form id="contactForm" class="contact-form reveal">
-          <label>Nombre<input type="text" id="name" required placeholder="Tu nombre"></label>
-          <label>Mensaje<textarea id="message" rows="5" required placeholder="Escribe tu mensaje"></textarea></label>
+          <label for="name">Nombre<input type="text" id="name" name="name" autocomplete="name" required placeholder="Tu nombre"></label>
+          <label for="message">Mensaje<textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje"></textarea></label>
           <button class="btn btn-primary" type="submit">Enviar mensaje <span>→</span></button>
           <p id="formStatus" class="form-status" role="status"></p>
         </form>
